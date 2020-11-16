@@ -1,0 +1,118 @@
+body{
+	background-color: #E5E5E5;
+}
+header{
+	margin: 0 0 55px 0;
+	font-family: 'Montserrat',sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    max-width: 1440px;
+    height:70px;
+    top: 140px; 
+    display: flex;
+    background-color: white;
+}
+.header .container{
+	padding: 10px 15px;
+	margin: 0 auto 45px;
+}
+.header .container > ul, .header .container > nav {
+	align-self: center;
+}
+.header{
+	transition: 0.3s;
+}
+.logo{
+	padding:15px 0 15px 140px;
+	width: 40px;
+	height: 40px;
+}
+.logotext{
+	width: 54px;
+	height: 13px;
+	padding:28px 0 28px 12.5px;
+}
+.nav{
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	display: flex;
+	padding-left: 284px;
+}
+.nav > li {
+    margin-right: 20px;
+}
+.nav > li > a:hover{
+	color: rgba(31, 32, 65, 0.75);
+	text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+}
+.down{
+	fill-opacity:0.5;
+}
+.down:hover{
+	fill-opacity:0.75;
+}
+.nav > li.nav_item {
+   position:relative;
+}
+.nav > li> a {
+    color: rgba(31, 32, 65, 0.5);
+}
+.submenu {
+   position:absolute;
+   color: rgba(31, 32, 65, 0.5);
+   width:100%;
+   padding:5px 0 0 2px;
+   display:none;
+}
+.nav > li > a:hover, .submenu > li > a:hover{
+    color: rgba(31, 32, 65, 0.75);
+    text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+}
+.nav > li.nav_item:hover .submenu {
+    display: block;
+}
+.submenu > li {
+    margin-bottom: 5px;
+}
+.submenu > li > a{
+	color: rgba(31, 32, 65, 0.5);
+}
+.button{
+	display: inline-block;
+	height: 34px;
+    color: rgba(188, 156, 255, 1);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 12px;
+    user-select: none;
+	outline: none;
+	border: 2px;
+	border-style: solid;
+	border-radius: 22px;
+	text-transform: uppercase;
+	background-color: white; 
+	cursor: pointer;
+	padding: 0;
+}
+.btn1{
+	width: 87px;
+}
+.btn2{
+	width: 196px;
+	margin-left: 20px;
+	margin-right: 140px;
+}
+.btn{
+	padding-top: 18px;
+}
+.button:hover{
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	color: white;
+}
