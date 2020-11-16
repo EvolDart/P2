@@ -1,6 +1,7 @@
+/* Начало блока со стилями для Headers*/
 body{
 	background-color: #E5E5E5;
-	font-family: 'Montserrat',sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 a{
 	text-decoration: none;
@@ -8,12 +9,20 @@ a{
 ul{
     list-style-type: none;
 }
+p{
+	color: rgba(31, 32, 65, 0.5);
+	margin: 0;
+}
 .container{
     max-width: 1440px;
     height:70px;
     top: 140px; 
     display: flex;
     background-color: white;
+    font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 17.07px;
 }
 .header .container{
 	padding: 0;
@@ -36,9 +45,6 @@ ul{
 	padding:28px 0 28px 12.5px;
 }
 .nav{
-	font-size: 14px;
-	font-weight: 400;
-	font-style: normal;
 	display: flex;
 	padding-left: 284px;
 }
@@ -112,4 +118,22 @@ ul{
 .button:hover{
 	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 	color: white;
+}
+/* Начало блока со стилями для Headers авторизованного пользователя*/
+.line{
+	width: 1px;
+	height: 30px;
+	background: rgba(31, 32, 65, 0.1);
+	margin: 20px 20px 20px 0;
+}
+.navuser{
+	padding-left: 466.31px;
+}
+.user{
+	margin: 26px 140px 26px 0;
+	padding: 0;
+}
+.user > a:hover{
+	color: rgba(31, 32, 65, 0.75);
+    text-shadow: 0 0 .55px #333, 0 0 .55px #333;
 }
