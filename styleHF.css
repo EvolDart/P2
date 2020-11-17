@@ -2,6 +2,8 @@
 body{
 	background-color: #E5E5E5;
 	font-family: 'Montserrat', sans-serif;
+	padding: 0;
+	margin: 0;
 }
 a{
 	text-decoration: none;
@@ -15,24 +17,20 @@ p{
 }
 .container{
     max-width: 1440px;
-    height:70px;
-    top: 140px; 
     display: flex;
     background-color: white;
     font-size: 14px;
 	font-weight: 400;
 	font-style: normal;
 	line-height: 17.07px;
+	margin: 10px auto 45px;
 }
 .header .container{
 	padding: 0;
-	margin: 0 auto 45px;
+	height:70px;
 }
 .header .container > ul, .header .container > nav {
 	align-self: center;
-}
-.header{
-	transition: 0.3s;
 }
 .logo{
 	padding:15px 0 15px 140px;
@@ -136,4 +134,100 @@ p{
 .user > a:hover{
 	color: rgba(31, 32, 65, 0.75);
     text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+}
+/* Конец блока со стилями для Headers авторизованного и неавторизованного пользователя*/
+/* Начало блока со стилями для Footers*/
+.footer > .container{
+	height: 372px;
+}
+.column1{
+	width: 260px;
+	margin:100px 40px 140px 140px;
+	line-height: 24px;
+}
+.column1 > p{
+	color: rgba(31, 32, 65, 0.75);
+}
+.logofooter{
+	padding:0 0 20px 0;
+}
+.logotextfooter{
+	padding: 0 0 33.72px 12.5px;
+}
+.column2{
+	width: 200px;
+	margin: 104px 0 100px 0;
+}
+.column2 > h3{
+	color: rgba(31, 32, 65, 1);
+	margin: 0;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14.63px;
+	text-transform: uppercase;
+	padding-bottom: 21px; 
+}
+.navfooter{
+	margin: 0;
+	padding: 0;
+}
+.navfooter > li > a{
+	color: rgba(31, 32, 65, 0.5);
+}
+.navfooter > li > a:hover{
+	color: rgba(31, 32, 65, 0.75);
+	font-weight: 700;
+}
+.navfooter > li{
+	padding: 0 0 20px 0;
+}
+.column3{
+	width: 260px;
+	margin: 104px 140px 120px 0;
+}
+.column3 > h3{
+	color: rgba(31, 32, 65, 1);
+	margin: 0;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 14.63px;
+	text-transform: uppercase;
+	padding-bottom: 21px; 
+}
+.email{
+margin-top: 20px;
+border-style: solid;
+border: 1px solid rgba(31, 32, 65, 0.25);
+width: 260px;
+height: 44px;
+border-radius: 3px;
+display: flex;
+}
+.email input{
+	width: 216px;
+	height: 42px;
+	border: none;
+	color: rgba(31, 32, 65, 0.75);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+input:focus {
+	outline: 0;
+}
+.arrow{
+	width: 44px;
+	height: 44px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	fill: rgba(188, 156, 255, 1);
+}
+.arrow:hover{
+	border: none;
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	fill: white;
+}
+.arrow:active, .arrow:focus{
+	outline: none;
 }
