@@ -51,7 +51,7 @@ p{
 }
 .nav > li > a:hover{
 	color: rgba(31, 32, 65, 0.75);
-	text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+	font-weight: 700;
 }
 .down{
 	fill-opacity:0.5;
@@ -69,12 +69,12 @@ p{
    position:absolute;
    color: rgba(31, 32, 65, 0.5);
    width:100%;
-   padding:5px 0 0 2px;
+   padding:5px 0;
    display:none;
 }
 .nav > li > a:hover, .submenu > li > a:hover{
     color: rgba(31, 32, 65, 0.75);
-    text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+    font-weight: 700;
 }
 .nav > li.nav_item:hover .submenu {
     display: block;
@@ -133,12 +133,13 @@ p{
 }
 .user > a:hover{
 	color: rgba(31, 32, 65, 0.75);
-    text-shadow: 0 0 .55px #333, 0 0 .55px #333;
+    font-weight: 700;
 }
 /* Конец блока со стилями для Headers авторизованного и неавторизованного пользователя*/
-/* Начало блока со стилями для Footers*/
+/* Начало блока со стилями для Footers с навигацией*/
 .footer > .container{
 	height: 372px;
+	margin-bottom: 0;
 }
 .column1{
 	width: 260px;
@@ -230,4 +231,27 @@ input:focus {
 }
 .arrow:active, .arrow:focus{
 	outline: none;
+}
+/* Конец блока со стилями для Footers с навигацией*/
+.footer > .social{
+	height: 70px;
+	margin-top: 1px;
+	display: flex;
+	position: relative;
+}
+.copyright > p{
+	padding: 26px 0 26px 140px;
+	color: rgba(31, 32, 65, 0.75);
+}
+.socialnet{
+	position: absolute; 
+	right: 0px;
+	padding-top: 23px;
+}
+.socialnet > a{
+	padding-left: 20px;
+	text-align: center;
+}
+.inst{
+	padding-right: 140px;
 }
