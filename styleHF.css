@@ -36,11 +36,16 @@ p{
 	padding:15px 0 15px 140px;
 	width: 40px;
 	height: 40px;
+	display: inline-block;
 }
 .logotext{
 	width: 54px;
 	height: 13px;
 	padding:28px 0 28px 12.5px;
+}
+.logotextheader{
+	width: 54px;
+	height: 13px;
 }
 .nav{
 	display: flex;
@@ -152,8 +157,13 @@ p{
 .logofooter{
 	padding:0 0 20px 0;
 }
+.logofooter > a{
+	padding:0 0 33.72px 0;
+}
 .logotextfooter{
-	padding: 0 0 33.72px 12.5px;
+	padding: 0 0 13.72px 12.5px;
+	width: 54px;
+	height: 13px;
 }
 .column2{
 	width: 200px;
@@ -233,6 +243,7 @@ input:focus {
 	outline: none;
 }
 /* Конец блока со стилями для Footers с навигацией*/
+/* Начало блока со стилями для Footer с соц.сетями и копирайтингом*/
 .footer > .social{
 	height: 70px;
 	margin-top: 1px;
@@ -246,12 +257,48 @@ input:focus {
 .socialnet{
 	position: absolute; 
 	right: 0px;
-	padding-top: 23px;
+	margin-top: 23px;
 }
 .socialnet > a{
-	padding-left: 20px;
+	margin-left: 20px;
+}
+.socialnet> a > img{
+	width: 24px;
+	height: 24px;
+}
+
+.inst{
+	margin-right: 140px;
+}
+/* Конец блока со стилями для Footer с соц.сетями и копирайтингом*/
+/* Начало блока со стилями для Footer Creative*/
+.footer > .creative{
+	height: 367px;
+	width: 768px;
+	margin-top: 40px;
+	display: flex; 
+	flex-direction: column; 
 	text-align: center;
 }
-.inst{
-	padding-right: 140px;
+.logocreative{
+	padding-top: 120px;
 }
+.logotoxin{
+	padding: 0 0 13.33px 12.5px;
+	width: 54px;
+	height: 13px;
+}
+.copyrightcreative{
+	padding-top: 20px;
+}
+.socialcreative{
+	padding-top: 25px;
+}
+.socialcreative > a{
+	margin-left: 20px;
+}
+.socialcreative > a > img{
+	width: 24px;
+	height: 24px;
+}
+/* Конец блока со стилями для Footer Creative*/
